@@ -49,7 +49,6 @@ self.addEventListener('activate', function (e) {
 });
 
 self.addEventListener('fetch', function (e) {
-    // listen for the fetch event, log the URL of the requested resource, and then begin to define how we will respond to the request.
     console.log('fetch request : ' + e.request.url)
     e.respondWith(
         caches.match(e.request).then(function (request) {
