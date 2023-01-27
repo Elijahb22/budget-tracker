@@ -10,5 +10,7 @@ This program was wrote with Nodejs, Html and CSS. I mainly used Heroku to have a
 # Try it Out!
 Link below to access app:
 https://stormy-waters-65028.herokuapp.com/
-#Contributors
+# Contributors
+- [Elijah Busick](https://github.com/Elijahb22)
+
 
